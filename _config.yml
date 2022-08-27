@@ -3,8 +3,9 @@ description: A personal site.
 # baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://tatomi.de" # the base hostname & protocol for your site, e.g. http://example.com
 
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: 
+ - sighingnow/jekyll-gitbook
 
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
-  - jekyll-seo-tag
+ - jekyll-remote-theme # add this line to the plugins list if you already have one
+
